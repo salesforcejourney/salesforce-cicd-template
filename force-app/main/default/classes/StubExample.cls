@@ -1,6 +1,7 @@
 public with sharing class StubExample {
   public Boolean isTrue = false;
   public String greeting = 'hello';
+  public String greetingMessage = 'hello';
   public Boolean notMocked; // this is null on purpose for testing.
 
   public Boolean getIsTrue() {
